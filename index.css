@@ -1,0 +1,137 @@
+*{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 25px;
+    background-color: black;
+    margin: 0px;
+}
+h3{
+    color: black;
+    background-color: #FCAF02;
+    position: relative;
+    top:10px;
+    left:15px;
+    font-weight: 750;
+}
+h1{
+    font-size: 30px;
+    padding: 20px;
+}
+
+button{
+    background-color:#FCAF02;
+    width:200px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    margin: 20px;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content:space-between;
+    background-color: #FCAF02;
+    height: 40px;
+    text-align: center;
+    padding: 17px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.links, a{
+    padding: 15px;
+    word-spacing: 20px;
+    background-color: #FCAF02;
+    color:black
+}
+
+table,th{
+    border: 2px solid rgb(110,77,1);
+    border-collapse: collapse;
+    margin:30px;
+    padding: 15px;
+    height: 60px;
+    text-align: center;
+}
+
+td{
+    border-right: 2px solid rgb(110,77,1);
+    margin:20px;
+    padding: 15px;
+    height: 60px;
+}
+
+tfoot td{
+    background-color: #FCAF02;
+    color:black;
+}
+
+table{
+    color:#FCAF02;
+    width:95%;
+}
+
+.info-part{
+    color:white;
+    display: flex;
+    margin: 40px;
+}
+
+.content{
+    width:800px;
+    border-right:0px;
+    line-height: 35px;
+}
+
+.content .para{
+    padding: 15px;
+}
+
+.pic{
+    float:right;
+    display: flex;
+    align-items: stretch;
+    padding: 25px;
+}
+
+.form-part{
+    color:#FCAF02;
+    margin: 20px;
+    padding: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder, input{
+    color:#FCAF02;
+}
+
+#name,#email{
+    border: 2px solid rgb(110,77,1);
+    padding: 18px;
+    margin: 20px;
+    width:86%;
+    border-radius: 20px;
+}
+
+#phone,#city{
+    border: 2px solid rgb(110,77,1);
+    padding: 18px;
+    margin: 20px;
+    width:40%;
+    border-radius: 20px;
+}
+
+#submit{
+    position: relative;
+    right:-37%;
+}
+
+.table-part{
+    width:100%;
+}
